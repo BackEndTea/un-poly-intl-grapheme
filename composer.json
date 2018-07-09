@@ -1,0 +1,20 @@
+{
+    "name": "backendtea/un-poly-intl-grapheme",
+    "description": "Removes the symfony/polyfill-intl-grapheme polyfill from your project",
+    "keywords": [
+        "polyfill",
+        "intl-grapheme",
+        "removal"
+    ],
+    "type": "metapackage",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gert de Pagter",
+            "email": "BackEndTea@gmail.com"
+        }
+    ],
+    "replace": {
+        "symfony/polyfill-intl-grapheme": "*"
+    }
+}
